@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "odaia"
-version = "2.3.4"
+version = "2.3.5"
 description = "Orpheus Desktop AI Assistant powered by GPT-4, GPT-4o, GPT-4V, GPT-3.5, DALL-E 3, Llama 3, Mistral, Gemini, Claude, Langchain LLMs, Llama-index, Whisper with chatbot, assistant, text completion, vision and image generation, internet access, chat with files, commands and code execution, file upload and download, and more."
 authors = ["Jean Guillaume Isabelle <info@jgwill.com>"]
 license = "MIT"

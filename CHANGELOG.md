@@ -1,5 +1,16 @@
 # CHANGELOG
 
+# 2.3.5 (2024-10-27)
+
+* Various changes for redistributing the application.
+
+# 2.3.4 (2024-10-27)
+
+* Various changes for redistributing the application.
+
+-----
+Original changelog from the official repository:
+-----
 # 2.3.2 (2024-08-29)
 
 - Date count fix in SQL query.
