@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-VERSION = '2.3.2'
-DESCRIPTION = 'Desktop AI Assistant powered by GPT-4, GPT-4V, GPT-3.5, DALL-E 3, Langchain LLMs, Llama-index, ' \
+VERSION = '2.3.3'
+DESCRIPTION = 'JGWill Orpheus Desktop AI Assistant powered by GPT-4, GPT-4V, GPT-3.5, DALL-E 3, Langchain LLMs, Llama-index, ' \
               'Whisper and more with chatbot, assistant, text completion, vision and image generation, ' \
               'internet access, chat with files, commands and code execution, file upload and download and more'
-LONG_DESCRIPTION = 'Package contains a GPT-4, GPT-4V, GPT-3.5, DALL-E 3, Langchain LLMs and Llama-index powered ' \
-                   'Desktop AI Assistant with chatbot, text completion, vision and image generation, internet ' \
+LONG_DESCRIPTION = 'Package contains a GPT-4, GPT-4V, GPT-3.5, DALL-E 3, Langchain LLMs and Llama-index powered by JGWill Creative Practicionners features' \
+                   'JGWill Orpheus Desktop AI Assistant with chatbot, text completion, vision and image generation, internet ' \
                    'access, chat with files and more - using OpenAI API and your own API Key. Includes context ' \
                    'memory and history, editable presets, customizable UI and more.'
 

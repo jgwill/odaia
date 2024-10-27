@@ -1,8 +1,9 @@
 # oDAIa - Desktop AI Assistant
 
-Release: **2.3.2** | build: **2024.08.29** | Python: **>=3.10, <3.12**
+
 
 ## Overview
+
 
 **oDAIa** is a Desktop AI Assistant that interacts with OpenAI language models, including `GPT-4`, `GPT-4 Vision`, and `GPT-3.5`, through the `OpenAI API`. It supports alternative LLMs via `Langchain` and `Llama-index`, such as models on `HuggingFace`, `Llama 3`, `Mistral`, `Google Gemini`, and `Anthropic Claude`.
 
@@ -21,3 +22,9 @@ pip install odaia
 ```sh
 odaia
 ```
+
+## Features
+
+JGWill Creative Practicionners features
+
+### TODO
