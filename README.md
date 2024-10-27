@@ -1,4 +1,9 @@
-# PyGPT - Desktop AI Assistant
+# oDAIa - Desktop AI Assistant
+
+
+----
+Original Forked README
+----
 
 [![pygpt](https://snapcraft.io/pygpt/badge.svg)](https://snapcraft.io/pygpt)
 

@@ -1,5 +1,12 @@
 # Installation
 
+
+
+
+----
+Original Forked INSTALL (wont apply to this project)
+----
+
 ## Compiled versions (Linux, Windows 10 and 11)
 
 You can download compiled versions for `Linux` and `Windows` (10/11). 

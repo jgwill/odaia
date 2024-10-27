@@ -1,3 +1,17 @@
+# Contributing to oDAIa
+
+Interested in contributing to JGWill's oDAIa? Here's how to get started!
+
+- Reporting a bug
+- Discussing the current state of the code
+- Submitting a fix
+- Proposing new features
+- Proposing new code to codebase
+
+----
+Original Forked Contributing
+----
+
 # Contributing to PyGPT
 
 Interested in contributing to PyGPT? Here's how to get started!

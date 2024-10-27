@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "pygpt-net"
+name = "jgwill-odaia"
 version = "2.3.2"
-description = "Desktop AI Assistant powered by GPT-4, GPT-4o, GPT-4V, GPT-3.5, DALL-E 3, Llama 3, Mistral, Gemini, Claude, Langchain LLMs, Llama-index, Whisper with chatbot, assistant, text completion, vision and image generation, internet access, chat with files, commands and code execution, file upload and download, and more."
+description = "Orpheus Desktop AI Assistant powered by GPT-4, GPT-4o, GPT-4V, GPT-3.5, DALL-E 3, Llama 3, Mistral, Gemini, Claude, Langchain LLMs, Llama-index, Whisper with chatbot, assistant, text completion, vision and image generation, internet access, chat with files, commands and code execution, file upload and download, and more."
 authors = ["Marcin Szczyglinski <info@pygpt.net>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/szczyglis-dev/py-gpt"
-repository = "https://github.com/szczyglis-dev/py-gpt"
+homepage = "https://github.com/jgwill/odaia"
+repository = "https://github.com/jgwill/odaia"
 documentation = "https://pygpt.readthedocs.io/"
 keywords = ["py_gpt", "py-gpt", "pygpt", "desktop", "app", "gpt", "gpt4", "gpt4-o", "gpt4-v", "gpt3.5", "gpt-4", "gpt-4V", "gpt-3.5", "llama3", "mistral", "gemini", "claude", "tts", "whisper", "vision", "chatgpt", "dall-e", "chat",
     "chatbot", "assistant", "text completion", "image generation", "ai", "api", "openai", "api key", "langchain", "llama-index", "presets", "ui", "qt", "pyside"]
@@ -90,7 +90,7 @@ pyinstaller = "^6.4.0"
 pytest = "^7.4.3"
 
 [tool.poetry.scripts]
-pygpt = 'pygpt_net.app:run'
+odaiaapp = 'pygpt_net.app:run'
 
 [build-system]
 requires = ["poetry-core"]
