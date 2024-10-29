@@ -15,31 +15,6 @@ Download the `.msi` or `tar.gz` for the appropriate OS from the download page at
 
 ## Snap Store
 
-You can install **PyGPT** directly from Snap Store:
-
-```commandline
-sudo snap install pygpt
-```
-
-To manage future updates just use:
-
-```commandline
-sudo snap refresh pygpt
-```
-
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/pygpt)
-
-**Using camera:** to use camera in Snap version you must connect the camera with:
-
-```commandline
-sudo snap connect pygpt:camera
-```
-
-**Using microphone:** to use microphone in Snap version you must connect the microphone with:
-
-```commandline
-sudo snap connect pygpt:audio-record :audio-record
-```
 
 ## PyPi (pip)
 
@@ -55,13 +30,13 @@ source venv/bin/activate
 2. Install from PyPi:
 
 ``` commandline
-pip install pygpt-net
+pip install odaia
 ```
 
 3. Once installed run the command to start the application:
 
 ``` commandline
-pygpt
+odaia
 ```
 
 ## Source Code
@@ -74,8 +49,8 @@ the Python interpreter (version `3.10` or higher).
 1. Clone git repository or download .zip file:
 
 ```commandline
-git clone https://github.com/szczyglis-dev/py-gpt.git
-cd py-gpt
+git clone https://github.com/jgwill/odaia.git
+cd odaia
 ```
 
 2. Create virtual environment:
@@ -102,8 +77,8 @@ python3 run.py
 1. Clone git repository or download .zip file:
 
 ```commandline
-git clone https://github.com/szczyglis-dev/py-gpt.git
-cd py-gpt
+git clone https://github.com/jgwill/odaia.git
+cd odaia
 ```
 
 2. Install Poetry (if not installed):
@@ -153,37 +128,15 @@ sudo apt install libxcb-cursor0
 If you have a problems with audio on Linux, then try to install `portaudio19-dev` and/or `libasound2`:
 
 ```commandline
-sudo apt install portaudio19-dev
+sudo apt install portaudio19-dev -y
 ```
 
 ```commandline
-sudo apt install libasound2
-sudo apt install libasound2-data 
-sudo apt install libasound2-plugins
+sudo apt install libasound2 -y
+sudo apt install libasound2-data -y 
+sudo apt install libasound2-plugins -y
 ```
 
-**Camera access in Snap version:**
-
-To use camera in Vision mode in Snap version you must connect the camera with:
-
-```commandline
-sudo snap connect pygpt:camera
-```
-
-**Windows and VC++ Redistributable**
-
-On Windows, the proper functioning requires the installation of the `VC++ Redistributable`, which can be found on the Microsoft website:
-
-https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
-
-The libraries from this environment are used by `PySide6` - one of the base packages used by PyGPT. 
-The absence of the installed libraries may cause display errors or completely prevent the application from running.
-
-It may also be necessary to add the path `C:\path\to\venv\Lib\python3.x\site-packages\PySide6` to the `PATH` variable.
-
-**WebEngine/Chromium renderer and OpenGL problems**
-
-If you have a problems with `WebEngine / Chromium` renderer you can force the legacy mode by launching the app with command line arguments:
 
 ``` ini
 python3 run.py --legacy=1

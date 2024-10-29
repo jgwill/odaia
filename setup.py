@@ -7,7 +7,7 @@ DESCRIPTION = 'JGWill Orpheus Desktop AI Assistant powered by GPT-4, GPT-4V, GPT
 LONG_DESCRIPTION = 'Package contains a GPT-4, GPT-4V, GPT-3.5, DALL-E 3, Langchain LLMs and Llama-index powered by JGWill Creative Practicionners features' \
                    'JGWill Orpheus Desktop AI Assistant with chatbot, text completion, vision and image generation, internet ' \
                    'access, chat with files and more - using OpenAI API and your own API Key. Includes context ' \
-                   'memory and history, editable presets, customizable UI and more.'
+                   'memory and history, editable presets, customizable UI and more.  JGWill Orpheus Desktop AI Assistant Aim to include Creative Orientation in Prompt Engineering and more.' \
 
 setup(
     name='odaia',
@@ -47,7 +47,7 @@ setup(
         'data/js/highlight/es/languages/*'
     ]},
     url='https://github.com/jgwill/odaia',
-    keywords='py_gpt, py-gpt, pygpt, PyGPT, desktop, app, gpt, gpt-4, gpt-4o, gpt-4v, gpt-3.5, tts, whisper, vision, '
+    keywords='orpheus,coaia,py_gpt, py-gpt, pygpt, PyGPT, desktop, app, gpt, gpt-4, gpt-4o, gpt-4v, gpt-3.5, tts, whisper, vision, '
              'chatgpt, dall-e, chat, chatbot, assistant, text completion, image generation, ai, api, openai, api key, '
              'langchain, llama-index, presets, ui, qt, pyside',
     install_requires=[
