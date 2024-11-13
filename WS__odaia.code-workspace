@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"github.copilot.enable": {
+			"markdown": true
+		},
+		"github.copilot.chat.experimental.codeFeedback.instructions": [
+			{
+				"file": ".copilot-instructions.md"
+			},
+			{
+				"text": "REMEMBER: Never ask me to brainstorm.  Dont introduce nor conclude, just output results. No comments.  Do not ask follow-up questions or include pleasantries or explanations in response."
+			}
+		],
+		"github.copilot.advanced": {
+
+		}
+	}
+}
